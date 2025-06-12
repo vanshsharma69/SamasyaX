@@ -27,6 +27,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "https://samasyax.onrender.com",
+      "https://samasya-x.vercel.app",
       process.env.FRONTEND_URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
