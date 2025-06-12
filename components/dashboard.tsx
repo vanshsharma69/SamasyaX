@@ -46,7 +46,7 @@ export function Dashboard({ user }: DashboardProps) {
   const fetchDashboardStats = async () => {
     try {
       const token = localStorage.getItem("token")
-      const API_URL = process.env.NEXT_PUBLIC_API_URL
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://samasyax.onrender.com"
 
       const response = await fetch(`${API_URL}/api/dashboard/stats`, {
         headers: {
