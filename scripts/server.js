@@ -26,7 +26,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
-      "https://bug-logger-coral.vercel.app",
+      "https://samasyax.onrender.com",
       process.env.FRONTEND_URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
