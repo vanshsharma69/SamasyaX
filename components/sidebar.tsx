@@ -148,3 +148,5 @@ export function Sidebar({ user, currentView, onViewChange, onLogout }: SidebarPr
     </div>
   )
 }
+
+// Changed
